@@ -68,7 +68,7 @@ export default function LandingPage(){
                <div style={{position: 'relative', overflowX: 'hidden' }}>
                 <img src={main} style={{zIndex:-1, width:'100%', height:'98vh', }} />
                 <center>
-                <img src={clock} style={{zIndex:100000, top: '50%', left: '50%', transform: 'translate(-50%, -50%)',position: 'absolute',height:'80vh'}}/>
+                <img src={clock} style={{zIndex:100000, top: '51%', left: '50%', transform: 'translate(-50%, -50%)',position: 'absolute',height:'80vh'}}/>
                 </center>
                 <Card style={{zIndex:999, position:'absolute', top:'0%', backgroundColor:'#1d352f', height:'50px', width:'100%', borderRadius:'0px', opacity:'82%'}}><img src={logo} style={{width:'300px', marginTop:'-5px'}} /></Card>
 
@@ -110,7 +110,7 @@ export default function LandingPage(){
                             ref={mimamsaRef} initial={{ opacity: 0, x: -100 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1.5 }}
                             style={{ color: "#1d352f", zIndex: 999,}}>
                             <Typography style={{color:'#d4ddce', fontFamily:'"Quicksand", sans-serif', marginTop:'50px', marginLeft:'10%', marginRight:'10%', 
-                                marginTop:'30px', fontSize:'1.2rem'}}>Mimamsa is a premier jewelery design house in Australia, home to master
+                                marginTop:'30px', fontSize:'1.2rem'}}>Mimamsa is a premier jewellery design house in Australia, home to master
                                 artisans who create exquisite pieces that echo your unique style. Our extensive collection includes everything
                                 from engagement rings and anniversary gifts to bespoke creations, pendants, necklaces, custom diamond watches, bracelets, 
                                 earrings, and more. Whether you're looking for the perfect gift for someone special or a personal luxury, 
@@ -169,7 +169,7 @@ export default function LandingPage(){
                     ref={mimamsaRef} initial={{ opacity: 0, x: -100 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1.5 }}
                     style={{ color: "#1d352f", zIndex: 999,}}>
                     <Typography style={{color:'#d4ddce', fontFamily:'"Quicksand", sans-serif', marginTop:'50px', marginLeft:'50px', marginRight:'50px', 
-                        marginTop:'30px', fontSize:'1.2rem'}}>Mimamsa is a premier jewelery design house in Australia, home to master
+                        marginTop:'30px', fontSize:'1.2rem'}}>Mimamsa is a premier jewellery design house in Australia, home to master
                         artisans who create exquisite pieces that echo your unique style. Our extensive collection includes everything
                         from engagement rings and anniversary gifts to bespoke creations, pendants, necklaces, custom diamond watches, bracelets, 
                         earrings, and more. Whether you're looking for the perfect gift for someone special or a personal luxury, 
@@ -228,7 +228,7 @@ export default function LandingPage(){
                     ref={mimamsaRef} initial={{ opacity: 0, x: -100 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1.5 }}
                     style={{ color: "#1d352f", zIndex: 999,}}>
                     <Typography style={{color:'#d4ddce', fontFamily:'"Quicksand", sans-serif', marginTop:'50px', marginLeft:'70px', marginRight:'70px', 
-                        marginTop:'30px', fontSize:'1.3rem'}}>Mimamsa is a premier jewelery design house in Australia, home to master
+                        marginTop:'30px', fontSize:'1.3rem'}}>Mimamsa is a premier jewellery design house in Australia, home to master
                         artisans who create exquisite pieces that echo your unique style. Our extensive collection includes everything
                         from engagement rings and anniversary gifts to bespoke creations, pendants, necklaces, custom diamond watches, bracelets, 
                         earrings, and more. Whether you're looking for the perfect gift for someone special or a personal luxury, 
