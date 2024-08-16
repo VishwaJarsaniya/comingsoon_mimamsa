@@ -161,12 +161,12 @@ export default function LandingPage(){
                
 
                 <motion.div
-                    ref={mimamsaRef} initial={{ opacity: 0}} animate={isInView ? { opacity: 1 } : {}} transition={{ duration: 1.5 }}
+                    ref={mimamsaRef} initial={{ opacity: 0}} animate={ {opacity: 1} } transition={{ duration: 1.5 }}
                     style={{ color: "#1d352f", zIndex: 999,}}>
                     <Typography style={{color:'#d4ddce', fontFamily:'"Josefin Sans", sans-serif', marginTop:'50px', fontSize:'2.5rem'}}>Mimamsa</Typography>
                 </motion.div>
                 <motion.div
-                    ref={mimamsaRef} initial={{ opacity: 0}} animate={isInView ? { opacity: 1 } : {}} transition={{ duration: 1.5 }}
+                    ref={mimamsaRef} initial={{ opacity: 0}} animate={ { opacity: 1 }} transition={{ duration: 1.5 }}
                     style={{ color: "#1d352f", zIndex: 999,}}>
                     <Typography style={{color:'#d4ddce', fontFamily:'"Quicksand", sans-serif', marginTop:'50px', marginLeft:'50px', marginRight:'50px', 
                         marginTop:'30px', fontSize:'1.2rem'}}>Mimamsa is a premier jewellery design house in Australia, home to master
@@ -179,7 +179,7 @@ export default function LandingPage(){
                 </motion.div>
               
                     <motion.img src={image2}  ref={imageRef} initial={{ opacity: 0 }}   animate={isImageInView ? { opacity: 1} : {}} transition={{ duration: 3 }} 
-                    style={{width:'65%', height:'65%', marginTop:'50px',left:'50%', right:'50%'}} />
+                    style={{width:'70%', height:'70%', marginTop:'50px',left:'50%', right:'50%'}} />
                 
                 </div>
             </>
