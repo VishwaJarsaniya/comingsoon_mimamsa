@@ -1,4 +1,3 @@
-
 import {React, useState, useEffect, useRef} from "react";
 import main from "./images/main.png";
 import logo from "./images/logo_mimamsa.png";
